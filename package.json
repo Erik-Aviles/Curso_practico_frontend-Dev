@@ -1,0 +1,11 @@
+{
+  "name": "cueros_practico_frontenddev",
+  "version": "1.0.0",
+  "description": "Practica de maquetacion con HTML y CSS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erika Aviles <erik8822@hotmail.com>",
+  "license": "MIT"
+}
