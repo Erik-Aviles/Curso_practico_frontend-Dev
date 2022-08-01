@@ -33,7 +33,7 @@
         .navbar {
             width: auto;
             height: 55px;
-            padding: 0 20px;
+            padding: 0 30px;
             display: flex;
             justify-content: space-between;
             border-bottom: 1px solid var(--text-input-field);
@@ -120,6 +120,9 @@
         .navbar-email{
             padding-right: 10px;
         }
+        .navbar-email .arron-down{
+            transform: rotate(90deg);
+        }
        
       @media (max-width: 680px) {
         .menu{
@@ -161,7 +164,7 @@
         <h1 class="title">My Orders</h1>
         <div class="navbar-right">
             <ul>
-                <li class="navbar-email">erik8822@hotmail.com <a href=""><img src="./Icons/flechita.svg" alt=""></a></li>
+                <li class="navbar-email">erik8822@hotmail.com <a href=""><img class="arron-down" src="./Icons/flechita.svg" alt=""></a></li>
                 <li class="navbar-shopping-cart">
                     <img class="shopping-cart" src="./Icons/icon_shopping_cart.svg" alt="un carrito de compras">
                     <div>8</div>
